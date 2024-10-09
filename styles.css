@@ -1,22 +1,42 @@
 body{
     background: darkcyan;
     font-family: Arial, Helvetica, sans-serif;
-     }
+}
 h1 {
-    color: burlywood;
     text-align: center;
-     }
-h2 {
-    color: burlywood;
-    text-align: center;
+    color: white;
+}
 
+.projects {
+    display:flex;
+    flex-wrap:wrap;
 }
-.projects { display:flex; flex-wrap:wrap; } /* condensed to save space */
-.project {
-width: 30%;
-margin: 10px;
-padding: 20px 10px;
-background: white; /* pick a color */
-border-radius: 25%;
+.project { 
+    width: 30%;
+    margin: 10px;
+    padding: 20px 10px;
+    background: pink;
+    border-radius: 25%;
 }
-        
+
+.project img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid pink); /* choose a color */
+    display: block;
+    margin: auto;
+    }
+
+h2 {
+    color:pink;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+     font-style: Arial;
+    }
+    projects{
+    display:flex;
+     flex-wrap:wrap;
+    }
