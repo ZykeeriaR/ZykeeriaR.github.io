@@ -1,67 +1,85 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     background: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
+    margin: 20px; /* You can adjust this to control the overall margin */
 }
+
 h1 {
     text-align: center;
-    color: #ff63c8;
+    color: hwb(0 0% 100%);
+    margin-bottom: 20px; /* Adds space below the title */
 }
 
 .projects {
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adds consistent space between the project items */
 }
+
 .project { 
     width: 30%;
-    margin: 10px;
+    margin: 10px; /* Adjust the margin if necessary */
     padding: 20px 10px;
     background: pink;
     border-radius: 25%;
 }
 
-.project img{
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-    border: 2px solid pink; /* choose a color */
+.project img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px 0;
+    border: 2px solid pink; /* Color for the border */
     display: block;
-    margin: auto;
-    }
+    margin-left: auto;
+    margin-right: auto;
+}
 
 h2 {
-    color:pink;
+    color: pink;
     text-align: left;
+    margin-bottom: 10px; /* Adds space below subheadings */
 }
-.about{
-    display:flex;
-    flex-wrap:wrap;
-    margin-right: 100px;
-    margin-left: 100px;
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
     justify-content: center;
-    }
-    .about p {
-    width:50%;
+    gap: 20px; /* Adjusts the space between .about elements */
+    max-width: 1200px; /* Limits the maximum width for better layout control */
+    padding: 20px; /* Adds spacing around the entire about section */
+}
+
+.about p {
+    width: 50%;
     text-align: center;
-    margin: auto;
-    line-height: 125%;
-    }
-    .about img {
+    margin: 10px auto; /* Adds space between paragraphs */
+    line-height: 1.5; /* Adjusts line spacing for readability */
+}
+
+.about img {
     width: 220px;
     height: 230px;
     border-radius: 25%;
-    border: 2px solid rgb(255, 255, 255);
-    }
-    .about img {
-        width: 220px;
-        height: 230px;
-        border-radius: 25%;
-        border: 2px solid rgb(255, 255, 255);
-        }
+    border: 2px solid #000000;
+    margin: 10px; /* Adds spacing around the image */
+}
+
 h3 {
     text-align: center;
-     font-style: Arial;
-    }
-    projects{
-    display:flex;
-     flex-wrap:wrap;
-    }
+    font-family: Arial;
+    margin-top: 20px; /* Adds space at the top of h3 */
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
