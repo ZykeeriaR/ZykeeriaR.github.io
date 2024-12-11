@@ -7,24 +7,24 @@
 body {
     background: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
-    margin: 20px; /* You can adjust this to control the overall margin */
+    margin: 20px; 
 }
 
 h1 {
     text-align: center;
     color: hwb(0 0% 100%);
-    margin-bottom: 20px; /* Adds space below the title */
+    margin-bottom: 20px; 
 }
 
 .projects {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Adds consistent space between the project items */
+    gap: 20px; 
 }
 
 .project { 
     width: 30%;
-    margin: 10px; /* Adjust the margin if necessary */
+    margin: 10px; 
     padding: 20px 10px;
     background: pink;
     border-radius: 25%;
@@ -36,7 +36,7 @@ h1 {
     max-width: 300px;
     max-height: 300px;
     margin: 10px 0;
-    border: 2px solid pink; /* Color for the border */
+    border: 2px solid pink; 
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -45,7 +45,7 @@ h1 {
 h2 {
     color: pink;
     text-align: left;
-    margin-bottom: 10px; /* Adds space below subheadings */
+    margin-bottom: 10px; 
 }
 
 .about {
@@ -53,16 +53,16 @@ h2 {
     flex-wrap: wrap;
     margin: 0 auto;
     justify-content: center;
-    gap: 20px; /* Adjusts the space between .about elements */
-    max-width: 1200px; /* Limits the maximum width for better layout control */
-    padding: 20px; /* Adds spacing around the entire about section */
+    gap: 20px; 
+    max-width: 1200px; 
+    padding: 20px; 
 }
 
 .about p {
     width: 50%;
     text-align: center;
-    margin: 10px auto; /* Adds space between paragraphs */
-    line-height: 1.5; /* Adjusts line spacing for readability */
+    margin: 10px auto; 
+    line-height: 1.5; 
 }
 
 .about img {
@@ -70,13 +70,13 @@ h2 {
     height: 230px;
     border-radius: 25%;
     border: 2px solid #000000;
-    margin: 10px; /* Adds spacing around the image */
+    margin: 10px;
 }
 
 h3 {
     text-align: center;
     font-family: Arial;
-    margin-top: 20px; /* Adds space at the top of h3 */
+    margin-top: 20px; 
 }
 
 .projects {
